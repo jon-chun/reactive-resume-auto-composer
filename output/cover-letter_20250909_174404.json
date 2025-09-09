@@ -1,0 +1,16 @@
+{
+  "job": {
+    "slug": "ai_support_program",
+    "title": "Lead, AI Support Program",
+    "org": "",
+    "url": ""
+  },
+  "tone": "standard",
+  "word_limits": {
+    "min": 300,
+    "max": 500
+  },
+  "mentions": [],
+  "avoid": [],
+  "body": "TODO: generated letter"
+}

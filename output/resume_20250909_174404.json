@@ -1,0 +1,71 @@
+{
+  "basics": {
+    "email": "john@example.com",
+    "phone": "555) 111-2222",
+    "website": "https://johndoe.dev",
+    "profiles": [
+      {
+        "network": "GitHub",
+        "url": "https://github.com/johndoe"
+      },
+      {
+        "network": "LinkedIn",
+        "url": "https://www.linkedin.com/in/johndoe"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "",
+      "position": "",
+      "highlights": [
+        "Built ML pipelines for streaming analytics; reduced processing latency by 35%.",
+        "Led cross-functional team of 6 to deploy model monitoring."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "College — B.S. Computer Science (2018–2022)",
+      "degree": "",
+      "area": "",
+      "startDate": "",
+      "endDate": ""
+    },
+    {
+      "institution": "Unknown Institution",
+      "degree": "",
+      "area": "",
+      "startDate": "",
+      "endDate": ""
+    }
+  ],
+  "skills": [
+    {
+      "name": "Skills",
+      "keywords": [
+        "Skills",
+        "Python",
+        "Machine Learning",
+        "NLP",
+        "Docker",
+        "Kubernetes"
+      ]
+    }
+  ],
+  "languages": [],
+  "awards": [],
+  "projects": [],
+  "interests": [],
+  "references": [],
+  "meta": {
+    "legal_notice": "# Legal Notice (optional; empty by default)\n",
+    "extensions": {},
+    "sources": [
+      "doc-3d55bc39",
+      "doc-66e56b9d",
+      "doc-e4cf5325"
+    ],
+    "conflicts": []
+  }
+}
