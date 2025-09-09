@@ -1,0 +1,8 @@
+**Title:** Lead, AI Support Program
+**Responsibilities:**
+- Build and operate ML systems supporting student success.
+- Partner with faculty to translate research into production.
+
+**Qualifications:**
+- 5+ years in ML engineering; Python, pipelines, orchestration.
+- Evidence of impact in education tech is a plus.

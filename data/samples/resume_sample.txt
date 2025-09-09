@@ -1,0 +1,9 @@
+John Doe
+Email: john@example.com | Phone: (555) 111-2222 | https://johndoe.dev
+
+Experience
+- Built ML pipelines for streaming analytics; reduced processing latency by 35%.
+- Led cross-functional team of 6 to deploy model monitoring.
+
+Skills
+Python, Machine Learning, NLP, Docker, Kubernetes

@@ -1,0 +1,57 @@
+runtime:
+  timezone: America/New_York
+  deterministic: true
+  seed: 42
+  api_timeout_sec_max: 60
+  max_crawl_pages: 5
+
+models:
+  llm:
+    provider: auto        # auto|openai|gemini|anthropic|ollama
+    name: gpt-5-mini
+    temperature: 0.1
+    topp: 1.0
+    topk: 0
+  embedding:
+    provider: auto
+    name: gemini-embedding-001
+
+limits:
+  bullets_per_role_max: 6
+  chars_per_bullet_max: 220
+  allow_long_bullets: true
+
+normalization:
+  date_format: YYYY-MM
+  location_format: "City, State/Province, Country"
+
+cover_letter:
+  tone: standard                  # standard|academic|research|entrepreneurial|mission
+  word_min: 300
+  word_max: 500
+  mention_ls: []
+  avoid_ls: []
+
+relevance:
+  authority_order:
+    - custom_instructions
+    - recent_signed_resume
+    - official_institutional_orcid_scholar
+    - personal_site
+    - github
+    - older_resumes
+    - news_media
+  fuzzy:
+    title_similarity_threshold: 0.85
+
+logging:
+  redact_pii: true
+  retention_days: 90
+  console_rich: true
+
+legal:
+  notice_file: ./docs/legal_notice.txt
+
+output:
+  dir_output: ./output
+  dir_logs: ./logs
